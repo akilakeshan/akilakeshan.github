@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Delicious Dish 2</title>
+</head>
+<body>
+    <header>
+        <h1>Italian Pizza</h1>
+    </header>
+
+    <section class="recipe-images">
+        <!-- Update with actual images -->
+        <img src="images/main1.jpg" alt="Finished Dish">
+    </section>
+
+    <section class="ingredients">
+        <h2>Ingredients</h2>
+        <!-- Replace with actual ingredients -->
+        <ul>
+            <li>Pizza Dough (yeast, sugar, warm water, flour, salt, olive oil)</li>
+            <li> Pizza Sauce (crushed tomatoes, garlic, oregano, basil, salt, pepper)</li>
+            <li>Toppings (mozzarella cheese, pepperoni, vegetables) </li>
+        </ul>
+    </section>
+
+    <section class="instructions">
+        <h2>Cooking Instructions</h2>
+        <!-- Replace with actual instructions -->
+        <ol>
+            <li>Step 1:Prepare pizza dough, let it rise.</li>
+            <li>Step 2:Simmer pizza sauce ingredients, adjust seasoning.</li>
+            <li>Step 3Roll out dough, transfer to pizza stone/baking sheet. </li>
+            <li>Step 4:Spread sauce, add cheese and toppings.</li>
+            <li>Step 5:Bake at 475°F (245°C) for 12-15 minutes.</li>
+            <li>Step 6:Slice and enjoy your homemade pizza! </li> 
+        </ol>
+    </section>
+
+    <section class="feedback">
+        <h2>Contact Us</h2>
+        <!-- Add a form for feedback and questions -->
+        <form action="submit_feedback.php" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <input type="submit" value="Submit">
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Delicious Recipes</p>
+    </footer>
+</body>
+</html>
